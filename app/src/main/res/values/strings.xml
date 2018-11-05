@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyAssist</string>
+    <string name="hold_price">持仓成本</string>
+    <string name="hold_share">持有份额</string>
+    <string name="curr_price">当前成本</string>
+    <string name="new_price">最新净值</string>
+    <string name="change_percent">日估涨跌幅</string>
+    <string name="target_price">目标成本</string>
+    <string name="start_cal">开始计算</string>
+    <string name="result">计算结果</string>
+</resources>
