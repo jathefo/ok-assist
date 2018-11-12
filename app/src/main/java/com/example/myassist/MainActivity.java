@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 holdShare_t = Float.parseFloat(holdShare.getText().toString());
                 currPrice_t = Float.parseFloat(currPrice.getText().toString());
                 changePercent_t = Float.parseFloat(changePercent.getText().toString());
-                currPrice_t = currPrice_t * (1 + changePercent_t);
+                currPrice_t = currPrice_t * (1 + changePercent_t/100);
                 targetPrice_t = Float.parseFloat(targetPrice.getText().toString());
 
                 result_t = ((holdPrice_t - targetPrice_t) * holdShare_t * currPrice_t)/(targetPrice_t - currPrice_t);
